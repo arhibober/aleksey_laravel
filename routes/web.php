@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'App\Http\Controllers\MainController@home');
 Route::get('/about', 'App\Http\Controllers\MainController@about');
 Route::get('/offer', 'App\Http\Controllers\MainController@offer');
+Route::post('/offer/check', 'App\Http\Controllers\MainController@offer_check');
 
 //Route::get('/', 'MainController@home');
 //Route::get('/about', 'MainController@about');

@@ -22,4 +22,9 @@ class MainController extends Controller
         return view('offer');
     }
 
+    public function offer_check(Request $request)
+    {
+        dd('request');
+    }
+
 }
