@@ -24,7 +24,8 @@ class MainController extends Controller
 
     public function offer_check(Request $request)
     {
-        dd('request');
+        dd($request);
+
     }
 
 }
